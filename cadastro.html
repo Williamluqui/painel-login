@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/cadastro.css">
+    <link rel="shortcut icon" href="imagens/education.ico" type="image/x-icon">
+    
+    <title>Cadastro de Clientes</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main-login">
+            <h1>Cadastro</h1>
+            <div class="imagem-login">
+                <img  src="imagens/cadastro.png" width="72" height="72" alt="imagem-login">
+                </div>
+                 <div>
+                   <form action="cadastro">
+                    <input type="name" placeholder="Nome" name="user" id="nome" >
+                    <input type="name" placeholder="Sobrenome" id="Sobrenome" >
+                    <input type="email" placeholder="E-mail" id="E-mail" >
+                    <input type="password" placeholder="Senha" id="password" required>
+                    <input type="password" placeholder="Repita a Senha" id="confirm_password" required>
+                    <a class="btn" href="index.html"> 
+                    <button class="btn" id="enviar" type="submit" onclick="validarsenha()">ENVIAR</button>
+                    <a class="btn" href="index.html"> 
+                    <button class="btn-voltar" id="voltar" type="button" >Voltar</button>
+                    </a> 
+                    </form>
+           </div>
+       </div>
+    </div>
+</body>
+</html>
