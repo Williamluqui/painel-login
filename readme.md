@@ -1,6 +1,6 @@
 <h1> Painel de Login </h1>
 
-> Status: 🚧 Desenvolvendo 🚧
+> Status: 🚧 Em Construção 🚧
 
 
 ### Projeto Web com o intuito de criar um projeto CRUD .
@@ -56,3 +56,12 @@ futuramente conforme o aprendizado implementar funções ao botão enviar e ao c
 <td>Mongo/mysql</td>
 </tr>
 </table>
+
+## Link do Projeto:
+
+https://wluqui.dev/projetos/painel/index.html
+
+
+![Screenshot painel](https://user-images.githubusercontent.com/88260564/147013148-3e04c122-c806-41ae-ab76-8066cc922784.jpg)
+
+![Screenshot painel2](https://user-images.githubusercontent.com/88260564/147013166-f50d5cc6-eb8c-43d8-8c17-cb4297fa4ce5.jpg)
