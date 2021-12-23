@@ -22,7 +22,7 @@ a{
 }
 .main-login{
     background-color: #ffffff;
-    
+    width: 400px;
     padding: 80px;
     border-radius: 10px;
     box-shadow: 0 5px 20px -1px #38333830;
@@ -52,7 +52,7 @@ input{
     padding: 5px 0px;
     padding-left: 4px;
     outline: none;
-    width: 20vw;
+    width: 100%;
     outline-color:#e1e1ec;
     border-radius: 2px;
     border: 1px solid #34528d10;
@@ -64,7 +64,27 @@ input:focus{
 
 
 }
-button{
+.btn-green{
+    background-image: linear-gradient(to right,  #34af23 0%, #95df3b  51%,  #34af23  100%);
+    border: 0;
+    border-radius: 2px;
+    background-size: 200% auto;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    margin-left: 4px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s ease;
+}
+.btn-green:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+.btn-blue {
     background-image: linear-gradient(to right, #1e3c72 0%, #2a5298  51%, #1e3c72  100%);
     border: 0;
     border-radius: 2px;
@@ -73,22 +93,23 @@ button{
     cursor: pointer;
     display: block;
     margin-top: 20px;
-    
+    margin-left: 4px;
     width: 100%;
     padding: 10px;
     text-align: center;
     transition: 0.5s ease;
 }
-button:hover {
+.btn-blue :hover {
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
-  }
+}
 p{
     text-align: center;
     margin-top: 20px;
     font-size: 0.8rem;
 }
+
 /* Tela de cadastro */
 
 
