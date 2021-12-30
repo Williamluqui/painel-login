@@ -64,6 +64,6 @@ futuramente conforme o aprendizado implementar funções ao botão enviar e ao c
 
 <br>
 
-![Screenshot painel](https://user-images.githubusercontent.com/88260564/147013148-3e04c122-c806-41ae-ab76-8066cc922784.jpg)
-
-![Screenshot painel2](https://user-images.githubusercontent.com/88260564/147013166-f50d5cc6-eb8c-43d8-8c17-cb4297fa4ce5.jpg)
+![Screenshot painel](https://user-images.githubusercontent.com/88260564/147722670-e3cd4a57-429c-4cd6-9183-d75468e87d2e.jpg)
+  
+![Screenshot painel2](https://user-images.githubusercontent.com/88260564/147722674-dfb92a98-d09c-43d1-bafb-d24d79ea7255.jpg)
