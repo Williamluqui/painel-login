@@ -4,11 +4,9 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-
 }
 body{
     background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
-   
 }
 a{
     text-decoration: none;
@@ -22,8 +20,8 @@ a{
 .main-login{
     background-color: #ffffff;
     padding: 80px;
-    
-    border-radius: 5px;
+    width: 350px;
+    border-radius: 7px;
     box-shadow: 0 5px 20px -1px #38333830;
 }
 h1 {
@@ -42,9 +40,8 @@ h2{
     padding-top: 20px;
     padding-bottom: 40px;
     text-align: center;
-
 }
-input:not([type="checkbox"]){
+input:not([type="checkbox"]){ /* cor do input e não usado no check */
     display: inline-block;
     margin-top: 10px;
     padding: 5px 0px;
@@ -52,13 +49,12 @@ input:not([type="checkbox"]){
     outline: none;
     width: 100%;
     border: 1px solid #18284810;
+    border-radius: 1px;
     
 }
 input:focus{
     background: #2a529810;
 }
-
-
 .logado {
     margin-left: 5px;
     text-align: left;
@@ -81,7 +77,7 @@ input:focus{
     transition: 0.5s ease;
 }
 .btn-login:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center; /* colocar efeito da direçao do botão */
     color: #fff;
     text-decoration: none;
   }
@@ -101,7 +97,7 @@ input:focus{
     transition: 0.5s ease;
 }
 .btn-cadastro:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center; /* colocar efeito da direçao do botão */
     color: #fff;
     text-decoration: none;
   }
@@ -111,7 +107,7 @@ input:focus{
     margin-top: 20px;
     font-size: 0.8rem;
 }
-/* Tela de cadastro */
+
 
 
 

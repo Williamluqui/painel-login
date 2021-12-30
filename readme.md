@@ -59,8 +59,10 @@ futuramente conforme o aprendizado implementar funções ao botão enviar e ao c
 
 ## Link do Projeto:
 
-https://wluqui.dev/projetos/painel/index.html
 
+> <li> <a href="https://wluqui.dev/projetos/painel/index.html" target="_blank" > Projeto <a>
+
+<br>
 
 ![Screenshot painel](https://user-images.githubusercontent.com/88260564/147013148-3e04c122-c806-41ae-ab76-8066cc922784.jpg)
 
