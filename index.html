@@ -9,6 +9,9 @@
     <title>Tela de Login</title>
 </head>
 <body>
+    <header>
+        <!--CABEÇALHO-->
+    </header>
     <div class="container">
         <div class="main-login">
             <h1>Faça Login</h1>
@@ -16,25 +19,25 @@
                 <div class="imagem-login">
                 <img  src="imagens/login_gov_icon_146024.png" alt="imagem-login">
                 </div>
-                <input type="text" placeholder="E-mail" name="user" id="nome">
-                <input type="password" placeholder="Senha" id="password">
-                <div class="logado">
-                <p>
-                <input type="checkbox" name="logado" id="logado" value="" /> 
-                <label for="logado">Manter-me logado</label>
-                </p>
-                </div>
+                <form action="login">
+                <input type="name" placeholder="E-mail" name="email" id="email" required>
+                <input type="password" placeholder="Senha" id="password" required>
                 <a class="btn" href="https://wluqui.dev/"> 
-                <button class="btn-login">Login</button>
+                <button class="btn-login" id="enviar" type="submit" onclick="validarsenha()">LOGIN</button>
                 </a>
-                <div>
+                <div class="esqueci-a-senha">
+                <a  href="/">Esqueci a senha</a>
                 </div>
                 <p class="cadastrar">Ainda não tem uma conta ?</p>
+                </form>
                 <a class="btn" href="cadastro.html"> 
                 <button class="btn-cadastro" type="submit" >CADASTRE-SE</button>
                 </a>
         </div>
     </div>
     </div>
+    <footer>
+        <!-- RODAPE-->
+    </footer>
 </body>
 </html>

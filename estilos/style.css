@@ -14,7 +14,8 @@ a{
 .container{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 80px;
+    margin-bottom: 50px;
     width: 100vw;
 }
 .main-login{
@@ -41,7 +42,7 @@ h2{
     padding-bottom: 40px;
     text-align: center;
 }
-input:not([type="checkbox"]){ /* cor do input e não usado no check */
+input{ /* cor do input e não usado no check */
     display: inline-block;
     margin-top: 10px;
     padding: 5px 0px;
@@ -54,12 +55,14 @@ input:not([type="checkbox"]){ /* cor do input e não usado no check */
 }
 input:focus{
     background: #2a529810;
+    border-color: dodgerblue;
 }
-.logado {
-    margin-left: 5px;
-    text-align: left;
+
+.esqueci-a-senha {
+    color: black;
+    text-align: center;
+    font-size: 0.9rem;
     margin-top: 20px;
-    font-size: 0.8rem;
 }
 .btn-login{
     background-image: linear-gradient(to right,  #34af23 0%, #95df3b  51%,  #34af23  100%);

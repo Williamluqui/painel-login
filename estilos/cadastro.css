@@ -47,7 +47,6 @@ h2{
 
 }
 input{
-    color: #e6e7eb;
     display: flex;
     margin-top: 10px;
     padding: 5px 0px;
@@ -61,6 +60,7 @@ input{
 }
 input:focus{
     background: #2a529810;
+    border-color: dodgerblue;
 
 
 }
