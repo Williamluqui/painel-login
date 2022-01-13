@@ -11,16 +11,20 @@ body{
 a{
     text-decoration: none;
 }
+a:hover{
+    color: #095bf5;
+}
 .container{
     display: flex;
     justify-content: center;
-    margin-top: 80px;
-    margin-bottom: 50px;
-    width: 100vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    max-width: 100%;
+    
 }
 .main-login{
     background-color: #ffffff;
-    padding: 80px;
+    padding: 50px;
     width: 350px;
     border-radius: 7px;
     box-shadow: 0 5px 20px -1px #38333830;
@@ -51,7 +55,6 @@ input{ /* cor do input e não usado no check */
     width: 100%;
     border: 1px solid #18284810;
     border-radius: 1px;
-    
 }
 input:focus{
     background: #2a529810;
@@ -104,18 +107,28 @@ input:focus{
     color: #fff;
     text-decoration: none;
   }
-
 .cadastrar{
     text-align: center;
     margin-top: 20px;
     font-size: 0.8rem;
 }
-
-
-
-
-
-
+@media screen and (max-width: 1366px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        max-width: 100%;
+        
+    }
+    .main-login{
+        background-color: #ffffff;
+        padding: 50px;
+        width: 350px;
+        border-radius: 7px;
+        box-shadow: 0 5px 20px -1px #38333830;
+    }
+}
 
 
     

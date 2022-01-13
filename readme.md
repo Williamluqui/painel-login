@@ -8,10 +8,11 @@
 ## Para o painel de login:
 
 
-+ Usuario
++ E-mail
 + Senha
 + Botão Login 
 + Botão Cadastro
+
 
 
 ## Painel cadastro:
@@ -30,11 +31,11 @@
 
 ### Painel Login:
 
-Implementar processo de cadastro no banco de dados 
+Implementar processo de cadastro no banco de dados .
 
 ### Painel cadastro:
 
-futuramente conforme o aprendizado implementar funções ao botão enviar e ao campo de senha para que se forem inseridas diferentes retornar erro . 
+futuramente conforme o aprendizado implementar funções ao botão enviar e no campo de senha para que se forem inseridas valores diferentes retornar erro . 
 
 ## Tecnologias usadas:
 
