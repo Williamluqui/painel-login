@@ -43,6 +43,7 @@ futuramente conforme o aprendizado implementar funções ao botão enviar e no c
 <tr>
 <td>HTML</td>
 <td>CSS</td>
+<td>JavaScript</td>
 
 </tr>
 </table>
@@ -52,11 +53,18 @@ futuramente conforme o aprendizado implementar funções ao botão enviar e no c
 
 <table>
 <tr>
-<td>JavaScript</td>
 <td>Node.js</td>
 <td>Mongo/mysql</td>
 </tr>
 </table>
+
+
+# Atualizações 🚧
+
+Para fins de estudo foi implementado o sitema de cadastro e login utilizando o localStorage , Utilizarei o Node e o SQL para versões que ainda serão implementadas .
+
+
+<br>
 
 ## Link do Projeto:
 
@@ -64,6 +72,9 @@ futuramente conforme o aprendizado implementar funções ao botão enviar e no c
 > <li> <a href="https://wluqui.dev/projetos/painel/index.html" target="_blank" > Projeto <a>
 
 <br>
+
+
+
 
 ![Screenshot painel](https://user-images.githubusercontent.com/88260564/147722670-e3cd4a57-429c-4cd6-9183-d75468e87d2e.jpg)
   

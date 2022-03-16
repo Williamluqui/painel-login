@@ -22,11 +22,12 @@
                 <img src="imagens/login_gov_icon_146024.png" alt="imagem-login">
                
             </div>
+            <div id="msgErro"></div>
             <form action="login">
                 <input type="name" placeholder="E-mail" name="email" id="email" required>
                 <input type="password" placeholder="Senha" id="password" required>
-                <a class="btn" href="https://wluqui.dev/">
-                    <button class="btn-login" id="enviar" type="submit" >LOGIN</button>
+                
+                    <button class="btn-login" id="enviar" type="button" onclick="entrar()" >LOGIN</button>
                 </a>
                 <div class="esqueci-a-senha">
                     <a href="/">Esqueci a senha</a>
@@ -34,7 +35,7 @@
                 <p class="cadastrar">Ainda não tem uma conta ?</p>
             </form>
             <a class="btn" href="cadastro.html">
-                <button class="btn-cadastro" type="submit">CADASTRE-SE</button>
+                <button class="btn-cadastro" type="button">CADASTRE-SE</button>
             </a>
         </div>
     </div>
@@ -42,7 +43,7 @@
     <footer>
         <!-- RODAPE-->
     </footer>
-    
+    <script src="login.js"></script>
 </body>
 
 </html>

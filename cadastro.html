@@ -17,15 +17,19 @@
                 <img  src="imagens/cadastro.png" width="72" height="72" alt="imagem-login">
                 </div>
                  <div>
+                    <div id="msgErro">
+                        
+                    </div>
+
                    <form action="cadastro">
-                    <input type="name" placeholder="Nome" name="user" id="nome" required >
-                    <input type="name" placeholder="Sobrenome" id="Sobrenome" >
-                    <input type="email" placeholder="E-mail" id="E-mail" >
+                    <input type="text"  placeholder="Nome" name="user" class="nome" id="nome" required >
+                    <input type="name"  placeholder="Sobrenome" id="sobrenome" >
+                    <input type="email" placeholder="E-mail" id="email" >
                         <br>
                     <input type="password" placeholder="Senha" id="password" required>
-                    <input type="password" placeholder="Repita a Senha" id="confirm_password" required>
-                    <a class="btn" href="index.html"> 
-                    <button class="btn-green enviar" id="enviar" type="submit" onclick="validarsenha()">Cadastrar</button>
+                    <input type="password" placeholder="Repita a Senha" id="confirmPassword" required>
+                    <a class="btn" href="#"> 
+                    <button class="btn-green enviar" id="enviar" type="button" onclick="cadastroUsuarios()">Cadastrar</button>
                     <a class="btn" href="index.html"> 
                     <button class="btn-blue voltar" id="voltar" type="button" >Voltar</button>
                     </a> 
@@ -33,5 +37,6 @@
            </div>
        </div>
     </div>
+    <script src="cadastro.js"></script>
 </body>
 </html>

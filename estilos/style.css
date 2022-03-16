@@ -114,6 +114,11 @@ input:focus{
     margin-top: 20px;
     font-size: 0.8rem;
 }
+#msgErro{
+    font-size: 12px;
+    text-align: center;
+
+}
 @media screen and (min-width: 320px) and (max-width:425px ){
     body{
         background: white;

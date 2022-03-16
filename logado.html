@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voce esta Logado</title>
+    <style>
+        body{
+            
+            background-color: aqua;
+        }
+
+        h1, h2{
+            display: flex;
+            justify-content: center;
+        }
+       
+    </style>
+</head>
+<body>
+    <button id="btn" onclick="sair()"> Sair</button>
+<h1>Area do Usuário </h1>
+    <h2 id="logado"></h2>
+
+
+
+<script>
+let userLogado =JSON.parse(localStorage.getItem('userLogado')) 
+let logado = document.querySelector('#logado')
+logado.innerText = `olá ${userLogado.nome} `
+
+    if (localStorage.getItem('token') == null) {  // Precisa estar logado para acessar a pagina teste 
+        alert('Você precisa estar logado para acessar esta pagina !!')
+        window.location.href = '/'
+
+    }
+function sair(){
+
+    localStorage.removeItem('token')
+    setTimeout(()=>{
+            window.location = '/'
+        },3000)
+    localStorage.removeItem('userLogado') /// Limpar item do localstorage
+
+}
+
+</script>
+</body>
+</html>
